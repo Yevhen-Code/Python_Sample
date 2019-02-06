@@ -1,0 +1,11 @@
+#import os and glob module and code goes to directory and print out all .jpg pictures from this path.
+
+import os, glob
+os.chdir("/Users/yhurt")
+for file in glob.glob("*.jpg"):
+    print(file)
+    
+QA India.jpg
+Jen 11.jpg
+Jen 9.jpg
+QA India2.jpg
